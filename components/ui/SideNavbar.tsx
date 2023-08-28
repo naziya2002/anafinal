@@ -21,7 +21,7 @@ function Navbar() {
          <li className="text-lg text-blue-500 border-b border-gray-200 "><Link href={"/features_pages/BigData"}>Big Data</Link><br/><br/></li><br />
          <li className="text-lg text-blue-500 border-b border-gray-200 "><Link href={"/features_pages/DataGovernance"}>Data Governance</Link><br/><br/></li><br />
          <li className="text-lg text-blue-500 border-b border-gray-200 "><Link href={"/features_pages/DataLakehouse"}>Data Lakehouse</Link><br/><br/></li><br />
-         <li className="text-lg text-blue-500 border-b border-gray-200 "><Link href={"/features_pages/DataWarehousing"}>Data Warehousing</Link><br/><br/></li>
+         <li className="text-lg text-blue-500 border-b border-gray-200 "><Link href={"/features_pages/DataWarehousing"}>Data Warehouseing</Link><br/><br/></li>
          
       </ul>    
    </div>

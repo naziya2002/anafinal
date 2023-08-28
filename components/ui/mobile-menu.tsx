@@ -75,25 +75,30 @@ export default function MobileMenu() {
             </Link>
           </li>
           <li>
-            <Link href="/signin" prefetch={false} className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-          Data Analysis
+            <Link href="/features_pages/DataLake" prefetch={false} className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+          DataLake
             </Link>
           </li> <li>
-            <Link href="/signin" prefetch={false} className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              DataLake
-            </Link>
-          </li> <li>
-            <Link href="/signin" prefetch={false} className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <Link href="/features_pages/DataSharing" prefetch={false} className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               DataSharing
             </Link>
           </li> <li>
-            <Link href="/signin" prefetch={false} className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              Data WareHousing
+            <Link href="/features_pages/BigData" prefetch={false} className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              BigData
+            </Link>
+          </li> <li>
+            <Link href="/features_pages/DataGovernance" prefetch={false} className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+          DataGovernance
             </Link>
           </li>  
           <li>
-            <Link href="/signin" prefetch={false} className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              Data Governance
+            <Link href="/features_pages/DataLakehouse" prefetch={false} className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              DataLakehouse
+            </Link>
+          </li>
+          <li>
+            <Link href="/features_pages/DataWarehousing" prefetch={false} className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              DataWarehouseing
             </Link>
           </li>
         </ul>
