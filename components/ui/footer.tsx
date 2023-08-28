@@ -47,10 +47,6 @@ export default function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
                 <ul>
                   <li className="mb-1">
-                  
-
-
-
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Data lake</Link>
                   </li>
                   <li className="mb-1">
@@ -63,8 +59,7 @@ export default function Footer() {
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Big data</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
-Data warehousing</Link>
+                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Data warehousing</Link>
                   </li>
                 </ul>
               </div>
@@ -143,7 +138,7 @@ Operations data analytics</Link>
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; Cruip.com. All rights reserved.</div>
+            <div className="text-gray-400 text-sm mr-4">&copy; All rights reserved.</div>
 
           </div>
 
